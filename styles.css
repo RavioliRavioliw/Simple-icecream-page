@@ -1,0 +1,111 @@
+body{
+	background: rgb(183 196 203);
+	margin: 0;
+	padding: 0;
+}
+
+.big_main{
+	
+}
+
+.navu{
+	float: right;
+	margin-top: 10px;
+}
+
+.sup_navu{
+	background: white;
+	height: 60px;
+
+}
+
+.navu ul{
+	list-style-type: none;
+	height: 60px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+
+.navu ul li{
+	margin: 0px;
+	display: inline;
+	width: 100px;
+	margin-right: 0;
+
+
+}
+
+.navu ul li a{
+	text-decoration: none;
+	color: white;
+	background: rgb(253 203 135);
+	padding: 10px;
+	margin-right: 0;
+	border-radius: 100px;
+
+}
+.navu ul li a:hover{
+	background: rgb(235 203 135);
+}
+
+.logo_img{
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+.tittle{position: absolute;
+	margin-left: 7%;
+	margin-top: 10px;
+	border-radius: 100px;
+	background: #f1bc5dab;
+	padding: 9px;
+	font-family: -webkit-body;
+	font-weight:lighter;
+	font-size:larger;
+	color: snow;
+	border:2px #cfb991ab solid;
+}
+
+.ice_creams {
+    background: rgb(219 183 116);
+    border: 6px #c39191 solid;
+    margin-top: 10%;
+    
+}
+
+.sub_ice{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ice_creams img {
+    background: #b0b381;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 9px #c39191 solid;
+    border-radius: 2000px;
+    transition: trasform .2s;
+}
+
+.individual{
+	width: 250px;
+    height: 300px;
+    margin: 0;
+}
+
+.sub_ice h1{
+	font-family: fantasy;
+	font-weight: normal ;
+
+}
+
+.ice_creams img:hover{
+	transform: scale(1.5);
+}
+
+
+
